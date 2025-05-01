@@ -7,5 +7,3 @@ export function Card({ children }) {
 export function CardContent({ children, className }) {
   return <div className={`p-4 ${className}`}>{children}</div>;
 }
-
-// Triggered redeploy from card.js
